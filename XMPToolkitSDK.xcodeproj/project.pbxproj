@@ -198,17 +198,17 @@
 		20FA2CD5215F76B0007136AE /* include */ = {
 			isa = PBXGroup;
 			children = (
+				20FA2D02215F76B0007136AE /* XMPCore */,
+				20FA2CF4215F76B0007136AE /* client-glue */,
 				20FA2CD6215F76B0007136AE /* XMPCommon */,
 				20FA2CF0215F76B0007136AE /* TXMPUtils.hpp */,
 				20FA2CF1215F76B0007136AE /* XMP_Version.h */,
 				20FA2CF2215F76B0007136AE /* XMP_Const.h */,
 				20FA2CF3215F76B0007136AE /* XMP_IO.hpp */,
-				20FA2CF4215F76B0007136AE /* client-glue */,
 				20FA2CFE215F76B0007136AE /* TXMPIterator.hpp */,
 				20FA2CFF215F76B0007136AE /* XMP.hpp */,
 				20FA2D00215F76B0007136AE /* TXMPMeta.hpp */,
 				20FA2D01215F76B0007136AE /* TXMPFiles.hpp */,
-				20FA2D02215F76B0007136AE /* XMPCore */,
 				20FA2D2B215F76B0007136AE /* XMP_Environment.h */,
 				20FA2D2C215F76B0007136AE /* XMP.incl_cpp */,
 			);
@@ -218,22 +218,14 @@
 		20FA2CD6215F76B0007136AE /* XMPCommon */ = {
 			isa = PBXGroup;
 			children = (
+				20FA2CE4215F76B0007136AE /* Interfaces */,
+				20FA2CE0215F76B0007136AE /* Utilities */,
 				20FA2CD7215F76B0007136AE /* XMPCommonLatestInterfaceVersions.h */,
 				20FA2CD8215F76B0007136AE /* XMPCommonErrorCodes.h */,
 				20FA2CD9215F76B0007136AE /* XMPCommonDefines.h */,
-				20FA2CDA215F76B0007136AE /* source */,
-				20FA2CE0215F76B0007136AE /* Utilities */,
 				20FA2CE3215F76B0007136AE /* XMPCommonFwdDeclarations.h */,
-				20FA2CE4215F76B0007136AE /* Interfaces */,
 			);
 			path = XMPCommon;
-			sourceTree = "<group>";
-		};
-		20FA2CDA215F76B0007136AE /* source */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = source;
 			sourceTree = "<group>";
 		};
 		20FA2CE0215F76B0007136AE /* Utilities */ = {
