@@ -84,8 +84,6 @@
 		1ED0E3B61EFA64B9001F741E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ED0E46A1EFA66BE001F741E /* JPEGMetadataVistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGMetadataVistor.h; sourceTree = "<group>"; };
 		1ED0E46B1EFA66BE001F741E /* JPEGMetadataVistor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JPEGMetadataVistor.mm; sourceTree = "<group>"; };
-		2037CEA5221FDE350065D067 /* XMPToolkitSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XMPToolkitSDK.podspec; sourceTree = "<group>"; };
-		205DF160221EBA3C00BEFA68 /* build_universal_framework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_universal_framework.sh; sourceTree = "<group>"; };
 		209DA19421607B5C003F95A2 /* XMPToolkitSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPToolkitSDK.h; sourceTree = "<group>"; };
 		20FA2CD3215F76B0007136AE /* libXMPFilesStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXMPFilesStatic.a; sourceTree = "<group>"; };
 		20FA2CD4215F76B0007136AE /* libXMPCoreStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXMPCoreStatic.a; sourceTree = "<group>"; };
@@ -163,8 +161,6 @@
 		1ED0E3A81EFA64B9001F741E = {
 			isa = PBXGroup;
 			children = (
-				205DF160221EBA3C00BEFA68 /* build_universal_framework.sh */,
-				2037CEA5221FDE350065D067 /* XMPToolkitSDK.podspec */,
 				20FA2CD5215F76B0007136AE /* include */,
 				20FA2CD2215F76AF007136AE /* libraries */,
 				1ED0E3B41EFA64B9001F741E /* XMPToolkitSDK */,
@@ -334,8 +330,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FA2D77215F76B0007136AE /* IDOMImplementationRegistry.h in Headers */,
-				20FA2D6A215F76B0007136AE /* INode.h in Headers */,
+				1ED0E46C1EFA66BE001F741E /* JPEGMetadataVistor.h in Headers */,
+				209DA19521607B5C003F95A2 /* XMPToolkitSDK.h in Headers */,
 				20FA2D53215F76B0007136AE /* TXMPMeta.hpp in Headers */,
 				20FA2D4D215F76B0007136AE /* WXMPFiles.hpp in Headers */,
 				20FA2D68215F76B0007136AE /* XMPCoreFwdDeclarations.h in Headers */,
@@ -367,8 +363,8 @@
 				20FA2D6C215F76B0007136AE /* IClientDOMSerializer.h in Headers */,
 				20FA2D78215F76B0007136AE /* ICoreConfigurationManager.h in Headers */,
 				20FA2D31215F76B0007136AE /* XMPCommonDefines.h in Headers */,
-				20FA2D7A215F76B0007136AE /* IClientDOMParser.h in Headers */,
-				1ED0E46C1EFA66BE001F741E /* JPEGMetadataVistor.h in Headers */,
+				20FA2D77215F76B0007136AE /* IDOMImplementationRegistry.h in Headers */,
+				20FA2D6A215F76B0007136AE /* INode.h in Headers */,
 				20FA2D4B215F76B0007136AE /* WXMPUtils.hpp in Headers */,
 				20FA2D73215F76B0007136AE /* ISimpleNode.h in Headers */,
 				20FA2D41215F76B0007136AE /* IErrorNotifier.h in Headers */,
@@ -379,7 +375,6 @@
 				20FA2D37215F76B0007136AE /* TWrapperFunctions2.h in Headers */,
 				20FA2D70215F76B0007136AE /* IDOMParser.h in Headers */,
 				20FA2D3F215F76B0007136AE /* IMemoryAllocator.h in Headers */,
-				209DA19521607B5C003F95A2 /* XMPToolkitSDK.h in Headers */,
 				20FA2D6D215F76B0007136AE /* ICoreObjectFactory.h in Headers */,
 				20FA2D67215F76B0007136AE /* XMPCoreErrorCodes.h in Headers */,
 				20FA2D3B215F76B0007136AE /* ISharedObject.h in Headers */,
@@ -387,6 +382,7 @@
 				20FA2D51215F76B0007136AE /* TXMPIterator.hpp in Headers */,
 				20FA2D2F215F76B0007136AE /* XMPCommonLatestInterfaceVersions.h in Headers */,
 				20FA2D40215F76B0007136AE /* IConfigurationManager.h in Headers */,
+				20FA2D7A215F76B0007136AE /* IClientDOMParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +626,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libraries";
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = (
 					"-fembed-bitcode",
 					"-I$SRCROOT/include",
@@ -660,6 +657,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libraries";
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = (
 					"-fembed-bitcode",
 					"-I$SRCROOT/include",
