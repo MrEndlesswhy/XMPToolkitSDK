@@ -1,0 +1,6 @@
+framework module XMPToolkitSDK {
+  umbrella header "XMPToolkitSDK.h"
+
+  export *
+  module * { export * }
+}

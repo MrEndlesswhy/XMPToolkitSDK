@@ -6,12 +6,26 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		2048E78B221F8C61001258E8 /* Package iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2048E78C221F8C61001258E8 /* Build configuration list for PBXAggregateTarget "Package iOS" */;
+			buildPhases = (
+				2048E78F221F8CDD001258E8 /* Make Universal Framework */,
+			);
+			dependencies = (
+			);
+			name = "Package iOS";
+			productName = "Package iOS";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1ED0E46C1EFA66BE001F741E /* JPEGMetadataVistor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED0E46A1EFA66BE001F741E /* JPEGMetadataVistor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1ED0E46D1EFA66BE001F741E /* JPEGMetadataVistor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1ED0E46B1EFA66BE001F741E /* JPEGMetadataVistor.mm */; };
 		209DA19521607B5C003F95A2 /* XMPToolkitSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 209DA19421607B5C003F95A2 /* XMPToolkitSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20FA2D2D215F76B0007136AE /* libXMPFilesStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FA2CD3215F76B0007136AE /* libXMPFilesStatic.a */; };
-		20FA2D2E215F76B0007136AE /* libXMPCoreStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FA2CD4215F76B0007136AE /* libXMPCoreStatic.a */; };
+		20E01391221FA57000757687 /* libXMPFilesStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FA2CD3215F76B0007136AE /* libXMPFilesStatic.a */; };
+		20E01392221FA57300757687 /* libXMPCoreStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FA2CD4215F76B0007136AE /* libXMPCoreStatic.a */; };
 		20FA2D2F215F76B0007136AE /* XMPCommonLatestInterfaceVersions.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CD7215F76B0007136AE /* XMPCommonLatestInterfaceVersions.h */; };
 		20FA2D30215F76B0007136AE /* XMPCommonErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CD8215F76B0007136AE /* XMPCommonErrorCodes.h */; };
 		20FA2D31215F76B0007136AE /* XMPCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CD9215F76B0007136AE /* XMPCommonDefines.h */; };
@@ -33,13 +47,9 @@
 		20FA2D46215F76B0007136AE /* XMP_Const.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CF2215F76B0007136AE /* XMP_Const.h */; };
 		20FA2D47215F76B0007136AE /* XMP_IO.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CF3215F76B0007136AE /* XMP_IO.hpp */; };
 		20FA2D48215F76B0007136AE /* WXMP_Common.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CF5215F76B0007136AE /* WXMP_Common.hpp */; };
-		20FA2D49215F76B0007136AE /* TXMPIterator.incl_cpp in Resources */ = {isa = PBXBuildFile; fileRef = 20FA2CF6215F76B0007136AE /* TXMPIterator.incl_cpp */; };
 		20FA2D4A215F76B0007136AE /* WXMPMeta.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CF7215F76B0007136AE /* WXMPMeta.hpp */; };
 		20FA2D4B215F76B0007136AE /* WXMPUtils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CF8215F76B0007136AE /* WXMPUtils.hpp */; };
-		20FA2D4C215F76B0007136AE /* TXMPMeta.incl_cpp in Resources */ = {isa = PBXBuildFile; fileRef = 20FA2CF9215F76B0007136AE /* TXMPMeta.incl_cpp */; };
 		20FA2D4D215F76B0007136AE /* WXMPFiles.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CFA215F76B0007136AE /* WXMPFiles.hpp */; };
-		20FA2D4E215F76B0007136AE /* TXMPUtils.incl_cpp in Resources */ = {isa = PBXBuildFile; fileRef = 20FA2CFB215F76B0007136AE /* TXMPUtils.incl_cpp */; };
-		20FA2D4F215F76B0007136AE /* TXMPFiles.incl_cpp in Resources */ = {isa = PBXBuildFile; fileRef = 20FA2CFC215F76B0007136AE /* TXMPFiles.incl_cpp */; };
 		20FA2D50215F76B0007136AE /* WXMPIterator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CFD215F76B0007136AE /* WXMPIterator.hpp */; };
 		20FA2D51215F76B0007136AE /* TXMPIterator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CFE215F76B0007136AE /* TXMPIterator.hpp */; };
 		20FA2D52215F76B0007136AE /* XMP.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2CFF215F76B0007136AE /* XMP.hpp */; };
@@ -67,7 +77,6 @@
 		20FA2D79215F76B0007136AE /* INodeIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2D29215F76B0007136AE /* INodeIterator.h */; };
 		20FA2D7A215F76B0007136AE /* IClientDOMParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2D2A215F76B0007136AE /* IClientDOMParser.h */; };
 		20FA2D7B215F76B0007136AE /* XMP_Environment.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FA2D2B215F76B0007136AE /* XMP_Environment.h */; };
-		20FA2D7C215F76B0007136AE /* XMP.incl_cpp in Resources */ = {isa = PBXBuildFile; fileRef = 20FA2D2C215F76B0007136AE /* XMP.incl_cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +84,8 @@
 		1ED0E3B61EFA64B9001F741E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ED0E46A1EFA66BE001F741E /* JPEGMetadataVistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGMetadataVistor.h; sourceTree = "<group>"; };
 		1ED0E46B1EFA66BE001F741E /* JPEGMetadataVistor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JPEGMetadataVistor.mm; sourceTree = "<group>"; };
+		2037CEA5221FDE350065D067 /* XMPToolkitSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XMPToolkitSDK.podspec; sourceTree = "<group>"; };
+		205DF160221EBA3C00BEFA68 /* build_universal_framework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_universal_framework.sh; sourceTree = "<group>"; };
 		209DA19421607B5C003F95A2 /* XMPToolkitSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPToolkitSDK.h; sourceTree = "<group>"; };
 		20FA2CD3215F76B0007136AE /* libXMPFilesStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXMPFilesStatic.a; sourceTree = "<group>"; };
 		20FA2CD4215F76B0007136AE /* libXMPCoreStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXMPCoreStatic.a; sourceTree = "<group>"; };
@@ -141,8 +152,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FA2D2E215F76B0007136AE /* libXMPCoreStatic.a in Frameworks */,
-				20FA2D2D215F76B0007136AE /* libXMPFilesStatic.a in Frameworks */,
+				20E01391221FA57000757687 /* libXMPFilesStatic.a in Frameworks */,
+				20E01392221FA57300757687 /* libXMPCoreStatic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +163,8 @@
 		1ED0E3A81EFA64B9001F741E = {
 			isa = PBXGroup;
 			children = (
+				205DF160221EBA3C00BEFA68 /* build_universal_framework.sh */,
+				2037CEA5221FDE350065D067 /* XMPToolkitSDK.podspec */,
 				20FA2CD5215F76B0007136AE /* include */,
 				20FA2CD2215F76AF007136AE /* libraries */,
 				1ED0E3B41EFA64B9001F741E /* XMPToolkitSDK */,
@@ -411,6 +424,10 @@
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
+					2048E78B221F8C61001258E8 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1ED0E3AC1EFA64B9001F741E /* Build configuration list for PBXProject "XMPToolkitSDK" */;
@@ -426,6 +443,7 @@
 			projectRoot = "";
 			targets = (
 				1ED0E3B11EFA64B9001F741E /* XMPToolkitSDK */,
+				2048E78B221F8C61001258E8 /* Package iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -435,15 +453,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FA2D7C215F76B0007136AE /* XMP.incl_cpp in Resources */,
-				20FA2D4F215F76B0007136AE /* TXMPFiles.incl_cpp in Resources */,
-				20FA2D49215F76B0007136AE /* TXMPIterator.incl_cpp in Resources */,
-				20FA2D4E215F76B0007136AE /* TXMPUtils.incl_cpp in Resources */,
-				20FA2D4C215F76B0007136AE /* TXMPMeta.incl_cpp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2048E78F221F8CDD001258E8 /* Make Universal Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Make Universal Framework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n$SRCROOT/build_universal_framework.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1ED0E3AD1EFA64B9001F741E /* Sources */ = {
@@ -578,7 +612,6 @@
 		1ED0E3BB1EFA64B9001F741E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -594,7 +627,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/include";
 				INFOPLIST_FILE = "$(SRCROOT)/XMPToolkitSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libraries";
 				OTHER_CFLAGS = (
@@ -612,7 +645,6 @@
 		1ED0E3BC1EFA64B9001F741E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -625,7 +657,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/include";
 				INFOPLIST_FILE = "$(SRCROOT)/XMPToolkitSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libraries";
 				OTHER_CFLAGS = (
@@ -637,6 +669,24 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		2048E78D221F8C61001258E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77879KDM34;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2048E78E221F8C61001258E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77879KDM34;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -657,6 +707,15 @@
 			buildConfigurations = (
 				1ED0E3BB1EFA64B9001F741E /* Debug */,
 				1ED0E3BC1EFA64B9001F741E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2048E78C221F8C61001258E8 /* Build configuration list for PBXAggregateTarget "Package iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2048E78D221F8C61001258E8 /* Debug */,
+				2048E78E221F8C61001258E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
