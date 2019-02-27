@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.compiler_flags = '-fembed-bitcode', '-I${SRCROOT/include}'
 
   spec.xcconfig = {
-    'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/#{spec.name}/include',
+    'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/XMPToolkitSDK/include',
     'GCC_PREPROCESSOR_DEFINITIONS' => 'IOS_ENV=1'
   }
 
