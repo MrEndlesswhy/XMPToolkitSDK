@@ -85,6 +85,7 @@
 		1ED0E46A1EFA66BE001F741E /* JPEGMetadataVistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGMetadataVistor.h; sourceTree = "<group>"; };
 		1ED0E46B1EFA66BE001F741E /* JPEGMetadataVistor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JPEGMetadataVistor.mm; sourceTree = "<group>"; };
 		209DA19421607B5C003F95A2 /* XMPToolkitSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPToolkitSDK.h; sourceTree = "<group>"; };
+		20A2FB6D22265F2500CEC778 /* XMPToolkitSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XMPToolkitSDK.podspec; sourceTree = "<group>"; };
 		20FA2CD3215F76B0007136AE /* libXMPFilesStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXMPFilesStatic.a; sourceTree = "<group>"; };
 		20FA2CD4215F76B0007136AE /* libXMPCoreStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXMPCoreStatic.a; sourceTree = "<group>"; };
 		20FA2CD7215F76B0007136AE /* XMPCommonLatestInterfaceVersions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPCommonLatestInterfaceVersions.h; sourceTree = "<group>"; };
@@ -161,6 +162,7 @@
 		1ED0E3A81EFA64B9001F741E = {
 			isa = PBXGroup;
 			children = (
+				20A2FB6D22265F2500CEC778 /* XMPToolkitSDK.podspec */,
 				20FA2CD5215F76B0007136AE /* include */,
 				20FA2CD2215F76AF007136AE /* libraries */,
 				1ED0E3B41EFA64B9001F741E /* XMPToolkitSDK */,
